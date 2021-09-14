@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Metropolis';
+  src: url(C:\Users\Lan\Documents\Metropolis-ExtraBold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+body {
+  background-image: linear-gradient(to bottom right, #84319b, #210d26);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote-wrapper {
+  width: 450px;
+  height: 370px;
+  margin: 0 10px;
+}
+.quote-wrapper .quote-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.quote-wrapper .quote-heading h2 {
+  font-family: 'Metropolis';
+  font-style: bold;
+  color: #fff;
+}
+
+/*  quote  */
+.quote-wrapper .quote-body {
+  box-shadow: 7px 10px;
+  width: 100%;
+  height: 250px;
+  padding: 50px 35px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.quote-wrapper .quote-body .icon-quote {
+  font-family: 'Metropolis';
+  text-align: center;
+  font-size: 18px;
+  color: #22313f;
+  height: 80px;
+  overflow: auto;
+}
+.quote-wrapper .quote-body .icon-quote .icon {
+  margin-right: 3px;
+  margin-left: 3px;
+}
+.quote-wrapper .quote-body .author {
+  text-align: right;
+  margin-top: 10px;
+}
+
+/*  line  */
+.quote-wrapper .quote-body .quote-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  border-top: 1px solid #676f75;
+  padding: 7px 0;
+}
+
+/*  social icon  */
+.quote-wrapper .quote-body .quote-buttons .social a {
+  margin-top: 20px;
+  font-size: 40px;
+  color: #000;
+}
+
+.quote-wrapper .quote-body .quote-buttons .social a:hover {
+  color: #b19cd9;
+}
+
+/*  button  */
+.quote-wrapper .quote-body .quote-buttons .btn button {
+  margin-top: 1px;
+  margin-left: 200px;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.quote-wrapper .quote-body .quote-buttons button:hover {
+  background-color: #b19cd9;
+  color: #000;
+}
+
+.quote-wrapper .quote-body .quote-buttons button:active {
+  background-color: #64577c;
+  color: #fff;
+}
+
+/*  footer  */
+.quote-wrapper .footer {
+  text-align: center;
+  margin-top: 20px;
+}
+.quote-wrapper .footer p {
+  font-family: 'Metropolis';
+  font-style: italic;
+  color: #fff;
+}
+
+/*  Scroll bar Design  */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: #fcfcfc;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ddd;
+  border-radius: 5px;
+}
